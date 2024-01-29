@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px
+}
+
+.title{
+    font-size: 70px;
+}
+.description{
+    font-size: 30px;
+}
+.contactButton{
+    text-decoration: none;
+}
+
+.fotoContainer{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 10px;
+}
+.foto{
+    position: relative;
+    right: 90px;
+}
