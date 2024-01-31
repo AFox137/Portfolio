@@ -8,16 +8,16 @@ export const Navbar = () => {
             <div className={styles.menu}>
                 <ul className={styles.menuItems}>
                     <li>
-                        <a href="/">About</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="/">Skills</a>
+                        <a href="#skills">Skills</a>
                     </li>
                     <li>
-                        <a href="/">Proyects</a>
+                        <a href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a href="/">Contact</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
